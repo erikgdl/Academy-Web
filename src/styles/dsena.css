@@ -1,0 +1,617 @@
+:root {
+  background: #f7f6f1;
+  color: #202020;
+}
+
+::selection {
+  background: #fade05;
+  color: #111;
+}
+
+:focus-visible {
+  outline-color: #d6b200;
+}
+
+h2 em {
+  color: #a18200;
+}
+
+.eyebrow-line,
+.final-cta .eyebrow-line {
+  background: #c7a600;
+}
+
+.brand-logo {
+  display: block;
+  width: 172px;
+  height: auto;
+}
+
+.announcement,
+.value-strip,
+.button--lime,
+.about-badge,
+.modality-icon,
+.card-arrow,
+.plan-card--featured,
+.plan-popular,
+.footer-social a:hover,
+.final-cta,
+.contact-dialog,
+.experience-stamp {
+  background: #fade05;
+}
+
+.button--lime:hover {
+  background: #ffe93e;
+}
+
+.button--dark:hover {
+  background: #333;
+}
+
+.button--outline:hover {
+  border-color: #171717;
+  background: #fff6c9;
+}
+
+.text-link:hover {
+  color: #9b8000;
+}
+
+.site-header {
+  border-bottom-color: #ffffff30;
+}
+
+.hero-shell,
+.site-footer {
+  background: #101010;
+}
+
+.hero {
+  background-position: center 46%;
+}
+
+.hero h1 {
+  font-size: clamp(72px, 8.5vw, 138px);
+}
+
+.hero h1 span,
+.hero-stats strong,
+.hero-scroll .scroll-line,
+.section-heading--dark h2 em,
+.plans h2 em,
+.footer-column p svg,
+.lightbox figcaption span {
+  color: #fade05;
+}
+
+.hero-scroll .scroll-line {
+  background: #fade05;
+}
+
+.live-dot {
+  background: #fade05;
+  box-shadow: 0 0 0 5px #fade0533;
+}
+
+.hero-description {
+  max-width: 480px;
+}
+
+.text-link--light:hover,
+.footer-column a:hover,
+.footer-bottom a:hover,
+.main-nav a:hover {
+  color: #fade05;
+}
+
+.about,
+.faq {
+  background: #f7f6f1;
+}
+
+.about-badge {
+  width: 235px;
+}
+
+.about-points span {
+  background: #fff2a4;
+  color: #715900;
+}
+
+.modalities,
+.space {
+  background: #efeee8;
+}
+
+.filter-tab--active,
+.filter-tab:hover,
+.button--dark {
+  background: #171717;
+}
+
+.modality-icon,
+.card-arrow {
+  color: #171717;
+}
+
+.modalities-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.modality-card {
+  min-height: 365px;
+}
+
+.modality-card-content {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.modality-card h3 {
+  font-size: 39px;
+}
+
+.plans {
+  background: #171717;
+}
+
+.plans-grid {
+  gap: 18px;
+}
+
+.plan-card {
+  background: #f7f6f1;
+  min-height: 580px;
+}
+
+.plan-card--featured {
+  background: #fade05;
+}
+
+.plan-top h3 {
+  font-size: 53px;
+}
+
+.plan-price {
+  white-space: nowrap;
+}
+
+.plan-price strong {
+  font-size: clamp(50px, 5.2vw, 72px);
+}
+
+.plan-price span:last-child {
+  margin-left: 3px;
+}
+
+.plan-card li svg {
+  color: #9b8100;
+}
+
+.plan-card--featured li svg {
+  color: #171717;
+}
+
+.plan-detail {
+  padding-top: 18px;
+  margin: auto 0 0;
+  color: #62625b;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.plan-card--featured .plan-detail {
+  color: #484329;
+}
+
+.plan-name {
+  color: #655800;
+}
+
+.plan-top > p:last-child,
+.plan-price span:last-child,
+.plan-billing {
+  color: #62625b;
+}
+
+.plan-card--featured .plan-divider {
+  background: #c4aa00;
+}
+
+.plan-divider {
+  background: #d1d0c8;
+}
+
+.plans-footnote {
+  max-width: 800px;
+  margin: 27px auto 0;
+  line-height: 1.7;
+}
+
+.inline-button {
+  border: 0;
+  background: none;
+  padding: 0;
+  color: #fade05;
+  font-size: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.experience {
+  background: #f7f6f1;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: clamp(48px, 8vw, 120px);
+}
+
+.experience-copy h2 {
+  margin: 22px 0;
+}
+
+.experience-copy > p:not(.eyebrow) {
+  max-width: 510px;
+  color: #666661;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.experience-features {
+  margin: 31px 0;
+  border-top: 1px solid #d5d4cc;
+}
+
+.experience-features > div {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  column-gap: 12px;
+  padding: 15px 0;
+  border-bottom: 1px solid #d5d4cc;
+}
+
+.experience-features span {
+  grid-row: span 2;
+  color: #a18200;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.experience-features strong {
+  font-size: 13px;
+}
+
+.experience-features p {
+  margin: 4px 0 0;
+  color: #73736e;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.app-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.app-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #282828;
+  padding: 12px 15px;
+  font-size: 11px;
+  font-weight: 800;
+  transition: background .2s, color .2s;
+}
+
+.app-links a:hover {
+  background: #171717;
+  color: #fade05;
+}
+
+.experience-visual {
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  min-height: 585px;
+  background: #e7d60f;
+  overflow: hidden;
+}
+
+.experience-visual::before {
+  content: "D’SENA";
+  position: absolute;
+  top: 105px;
+  left: -28px;
+  color: #d8c70e;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-size: clamp(130px, 15vw, 240px);
+  font-weight: 900;
+  letter-spacing: -.06em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.experience-visual img {
+  position: relative;
+  z-index: 1;
+  max-height: 550px;
+  max-width: 90%;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+.experience-visual-label {
+  position: absolute;
+  z-index: 2;
+  top: 23px;
+  left: 25px;
+  color: #171717;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+
+.experience-stamp {
+  position: absolute;
+  z-index: 2;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.experience-stamp span {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.units {
+  background: #171717;
+  color: #fff;
+}
+
+.units h2 em {
+  color: #fade05;
+}
+
+.units .section-description {
+  color: #b5b5ae;
+}
+
+.units-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.unit-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  border: 1px solid #393939;
+  background: #202020;
+  padding: 23px;
+  transition: border-color .2s, transform .2s;
+}
+
+.unit-card:hover {
+  border-color: #fade05;
+  transform: translateY(-3px);
+}
+
+.unit-number {
+  color: #fade05;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+
+.unit-card h3 {
+  margin: 15px 0 10px;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.unit-card p {
+  display: flex;
+  gap: 9px;
+  margin-bottom: 20px;
+  color: #bdbdb8;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.unit-card p svg {
+  flex: none;
+  color: #fade05;
+}
+
+.unit-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  margin-top: auto;
+  color: #fade05;
+  font-size: 11px;
+  font-weight: 800;
+  border-bottom: 1px solid #fade05;
+  padding-bottom: 4px;
+}
+
+.unit-card a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.gallery-note {
+  margin: 17px 0 0;
+  color: #72726c;
+  font-size: 11px;
+}
+
+.faq-grid h2 em {
+  color: #a18200;
+}
+
+.final-cta h2 em {
+  color: #736000;
+}
+
+.final-cta .eyebrow-line {
+  background: #171717;
+}
+
+.cta-decoration {
+  color: #ebd000;
+}
+
+.footer-social a:hover {
+  color: #171717;
+}
+
+.contact-dialog::backdrop {
+  background: #0b0b0bd9;
+}
+
+.dialog-content h2 em {
+  color: #736000;
+}
+
+.dialog-content input,
+.dialog-content select {
+  width: 100%;
+  height: 51px;
+  padding: 0 15px;
+  border: 1px solid #c3a900;
+  border-radius: 0;
+  background: #fffdf0;
+  color: #1b211c;
+  outline-offset: 2px;
+}
+
+.dialog-content select {
+  margin-bottom: 4px;
+}
+
+.dialog-content label:not(:first-of-type) {
+  margin-top: 16px;
+}
+
+.dialog-note {
+  color: #625400;
+}
+
+@media (max-width: 1100px) {
+  .main-nav {
+    gap: 12px;
+  }
+
+  .modalities-grid,
+  .units-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .plan-price strong {
+    font-size: 57px;
+  }
+
+  .experience-grid {
+    gap: 48px;
+  }
+}
+
+@media (max-width: 850px) {
+  .hero h1 {
+    font-size: clamp(72px, 11vw, 104px);
+  }
+
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-visual {
+    min-height: 520px;
+  }
+
+  .experience-visual img {
+    max-height: 490px;
+  }
+}
+
+@media (max-width: 600px) {
+  .brand-logo {
+    width: 145px;
+  }
+
+  .announcement-inner {
+    font-size: 8px;
+  }
+
+  .hero {
+    background-position: 60% center;
+  }
+
+  .hero h1 {
+    font-size: clamp(64px, 13.5vw, 88px);
+  }
+
+  .hero-stats strong {
+    font-size: 28px;
+  }
+
+  .about-badge {
+    width: 175px;
+    height: 130px;
+  }
+
+  .modalities-grid,
+  .units-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modality-card {
+    min-height: 315px;
+  }
+
+  .plan-price strong {
+    font-size: 70px;
+  }
+
+  .experience-visual {
+    min-height: 425px;
+  }
+
+  .experience-visual img {
+    max-height: 400px;
+  }
+
+  .unit-card {
+    min-height: 200px;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero h1 {
+    font-size: 59px;
+  }
+}
